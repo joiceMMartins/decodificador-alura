@@ -1,0 +1,163 @@
+body {
+    background-color: #FDF6EC;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+html {
+    width: 100%;
+}
+.conteudo {
+    position: relative;
+    display: block;
+    min-height: 100vh;
+}
+
+.logo {
+    width: 120px;
+    margin-left: 40px;
+    margin-top: 40px;
+    display: inline-block;
+}
+h1 {
+    position: absolute;
+    display: inline-block;
+    margin-top: 70px;
+    margin-left: 30px;
+    font-family: sans-serif;
+    color: #3B9AE1;
+}
+.aviso {
+    position: absolute;
+    top: 440px;
+    left: 230px;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+.texto-digitado {
+    position: absolute;
+    width: 550px;
+    height: 250px;
+    margin-top: 200px;
+    margin-left: 70px;
+    font-size: 20px;
+    border: none;
+    resize: none;
+    background-color: #FDF6EC;
+}
+.texto-resultado {
+    position: absolute;
+    top: 45px;
+    width: 252px;
+    height: 320px;
+    background-color: #F3E9DD;
+    border: none;
+    resize: none;
+}
+.texto-resultado:focus-visible {
+    outline: 0;
+}
+.texto-digitado:focus-visible {
+    outline: 0;
+}
+.botoes {
+    position: absolute;
+    top: 480px;
+    left: 330px;
+}
+button {
+    font-size: 25px;
+    padding: 13px;
+    border: none;
+    border-radius: 15px;
+    background-color: #3B9AE1;
+    color: #FDF6EC;
+    margin-left: 10px;
+}
+button:hover {
+    background-color: #002B5B;
+}
+.copiar {
+    position: absolute;
+    top: 400px;
+    margin-left: 75px;
+
+}
+.resultado p {
+    height: 90px;
+}
+.resultado {
+    background-color: #F3E9DD;
+    width: 260px;
+    height: 400px;
+    padding-top: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    position: absolute;
+    margin-left: 720px;
+    margin-top: 40px;
+    display:inline-block;
+    border-radius: 10px;
+
+}
+.detetive {
+    width: 200px;
+    margin-left: 30px;
+    margin-top:20px;
+}
+
+.sobre-resultado {
+    background-color: #F3E9DD;
+    width: 260px;
+    height: 400px;
+    padding-top: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    position: absolute;
+    margin-left: 720px;
+    margin-top: 40px;
+    display:inline-block;
+    border-radius: 10px;
+}
+.sobre-resultado .primeiro-texto {
+    position: relative;
+    display: inline-block;
+    left: 30px;
+}
+.sobre-resultado p {
+    font-weight: bold;
+    font-family:sans-serif;
+}
+.sobre-resultado .segundo-texto {
+    position: relative;
+    display: inline-block;
+    left: 8px;
+    margin-top: 32px;
+    font-size: 15px;
+}
+footer {
+    display: block;
+    text-align: center;
+    background-color: #F3E9DD;
+    padding: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 50px;
+}
+  footer p a:hover {
+    color: #3B9AE1;
+    font-size: 16px;
+  }
+  footer p a {
+    text-decoration: none;
+    color: black;
+  }
+  @media screen and (max-width: 480px) {
+    body {
+        background-color: red;
+    }
+    footer {
+    }
+  }
